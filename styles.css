@@ -1,0 +1,17 @@
+.first {
+  height: 25vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.form-main-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+}

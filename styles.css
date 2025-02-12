@@ -7,7 +7,7 @@ h1 {
   font-family: Norse-Bold, sans-serif;
 }
 
-bodyy {
+body {
   margin: 0;
   padding: 0;
 }
@@ -46,18 +46,57 @@ bodyy {
 .second {
   height: 33vh;
   background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Norse-Bold, 'sans-serif';
 }
 
 .form-main-div {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
+
 
 .form-div {
   display: flex;
   flex-direction: column;
 }
 
+.form-div input {
+  border: 2px #E5E7EB solid;
+  margin: 5px 0;
+  border-radius: 4px;
+  width: 250px;
+  height: 30px;
+}
+
 .third {
   height: 33vh;
+}
+
+#register {
+
+  margin-top: 60px;
+  margin-left: 100px;
+  padding: 20px 60px;
+  color: white;
+  background-color: #596d48;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  bottom: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#login {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+#login a {
+  color: #596d48;
 }

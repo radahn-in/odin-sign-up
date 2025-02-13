@@ -1,10 +1,5 @@
-@font-face {
-  font-family: Norse-Bold;
-  src: url(/fonts/Norse-Bold.otf);
-}
-
 h1 {
-  font-family: Norse-Bold, sans-serif;
+  font-family: "Skranji", sans-serif;
 }
 
 body {
@@ -17,15 +12,17 @@ body {
   flex-direction: row;
   width: 100vw;
   height: 100vh;
+  justify-content: center;
+
 }
 
 .left {
   background-image: url("./images/leaves.avif");
-  width: 35vh;
+  width: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  /* font-family: Norse-Bold, sans-serif; */
+  /* font-family: "Skranji", sans-serif; */
 }
 
 .right {
@@ -50,7 +47,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: Norse-Bold, 'sans-serif';
+  font-family: "Skranji", 'sans-serif';
+  margin: 5%;
 }
 
 .form-main-div {
